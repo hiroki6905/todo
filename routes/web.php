@@ -29,3 +29,4 @@ Route::delete('/goals/{goal}/todos/{todo}/tags/{tag}', 'TodoController@removeTag
 
 Auth::routes();
 
+\URL::forceScheme('https');
